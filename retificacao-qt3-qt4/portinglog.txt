@@ -1,0 +1,33 @@
+Log for qt3to4 on sex 29. mar 14:23:04 2019. Number of log entries: 27
+No changes made to file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/main.cpp
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/imagem.cpp at line 4 column 20: qscrollview.h -> q3scrollview.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/imagem.cpp: Added the following include directives:
+	#include <QMouseEvent> 	#include <QPaintEvent> 
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.cpp at line 1 column 20: qscrollview.h -> q3scrollview.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.cpp at line 12 column 56: WFlags -> Qt::WFlags
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.cpp at line 12 column 74: QScrollView -> Q3ScrollView
+No changes made to file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/retif.cpp
+No changes made to file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/matriz.cpp
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/imagem.h at line 16 column 21: qscrollview.h -> q3scrollview.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/imagem.h: Added the following include directives:
+	#include <QPaintEvent> 	#include <QMouseEvent> 
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.h at line 13 column 21: qscrollview.h -> q3scrollview.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.h at line 16 column 31: QScrollView -> Q3ScrollView
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/painel.h at line 21 column 56: WFlags -> Qt::WFlags
+No changes made to file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/retif.h
+No changes made to file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/matriz.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form1.ui.h at line 12 column 21: qfiledialog.h -> q3filedialog.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form1.ui.h at line 91 column 38: QFileDialog -> Q3FileDialog
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form1.ui.h at line 100 column 34: QFileDialog -> Q3FileDialog
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form1.ui.h at line 120 column 38: QFileDialog -> Q3FileDialog
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form2.ui.h at line 14 column 21: qfiledialog.h -> q3filedialog.h
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form2.ui.h at line 24 column 34: QFileDialog -> Q3FileDialog
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form2.ui.h at line 41 column 30: IO_WriteOnly -> QIODevice::WriteOnly
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form2.ui.h at line 44 column 15: QTextStream -> Q3TextStream
+In file C:/Users/Orlando/Documents/Projetos de Graduacao/Matheus Vargas/retificacao-qt3-qt4/form2.ui.h: Added the following include directives:
+	#include <Q3TextStream> 
+In file retifica.pro: Added entry QT +=  qt3support 
+In file retifica.pro: Added entry CONFIG += uic3
+
+In file retifica.pro: Renamed FORMS to FORMS3
+
